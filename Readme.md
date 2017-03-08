@@ -8,7 +8,7 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/Swifixture.svg)](https://cocoapods.org/pods/Swifixture)
 
-[![Travis](https://img.shields.io/travis/tplioy/Swifixture/master.svg)](https://travis-ci.org/tplioy/Swifixture/branches)
+[![Travis](https://img.shields.io/travis/thiagolioy/Swifixture/master.svg)](https://travis-ci.org/thiagolioy/Swifixture/branches)
 [![Cookiecutter-Swift](https://img.shields.io/badge/cookiecutter--swift-framework-red.svg)](http://github.com/cookiecutter-swift/Framework)
 
 cookiecutter bootstrap template for swift framework
