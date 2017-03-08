@@ -1,26 +1,34 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4B78849501CF907BF6AE64C8F174A2013AE33C0D+++D400CC2",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "95438028B10BBB846574013D29F154A00556A9D1+++BE6753C" : 9223372036854775807,
+    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64+++2BF4988" : 9223372036854775807,
     "E084C86B03F81D63323C9E7510697EA528A758C7+++387EE7C" : 9223372036854775807,
-    "95438028B10BBB846574013D29F154A00556A9D1+++231572E" : 9223372036854775807,
+    "4B78849501CF907BF6AE64C8F174A2013AE33C0D+++D400CC2" : 9223372036854775807,
     "95438028B10BBB846574013D29F154A00556A9D1+++2664596" : 9223372036854775807,
-    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64+++2BF4988" : 9223372036854775807
+    "95438028B10BBB846574013D29F154A00556A9D1+++231572E" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "73AED094-79E0-4BF0-8AD2-DA2D6CDCFBDD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "95438028B10BBB846574013D29F154A00556A9D1+++BE6753C" : "Swifixture\/Carthage\/Checkouts\/Quick\/Externals\/Nimble\/",
+    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64+++2BF4988" : "Swifixture\/Carthage\/Checkouts\/Quick\/",
     "E084C86B03F81D63323C9E7510697EA528A758C7+++387EE7C" : "Swifixture\/Carthage\/Checkouts\/xcconfigs\/",
-    "95438028B10BBB846574013D29F154A00556A9D1+++231572E" : "Swifixture\/Carthage\/Checkouts\/Nimble\/",
+    "4B78849501CF907BF6AE64C8F174A2013AE33C0D+++D400CC2" : "Swifixture\/",
     "95438028B10BBB846574013D29F154A00556A9D1+++2664596" : "Swifixture\/Carthage\/Checkouts\/Quick\/Externals\/Nimble\/",
-    "D0725CAC6FF2D66F2C83C2C48DC12106D42DAA64+++2BF4988" : "Swifixture\/Carthage\/Checkouts\/Quick\/"
+    "95438028B10BBB846574013D29F154A00556A9D1+++231572E" : "Swifixture\/Carthage\/Checkouts\/Nimble\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Swifixture",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Swifixture.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thiagolioy\/Swifixture.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B78849501CF907BF6AE64C8F174A2013AE33C0D+++D400CC2"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Quick\/Nimble.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
