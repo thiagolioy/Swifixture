@@ -7,7 +7,7 @@
 //
 
 import Foundation
-struct Swifixture {
+public struct Swifixture {
     
     let data: Data
     let json: String

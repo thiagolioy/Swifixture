@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-extension Swifixture {
+public extension Swifixture {
     func map<T: Mappable>(to type: T.Type) -> T? {
         return Mapper<T>().map(JSONString: json)
     }
