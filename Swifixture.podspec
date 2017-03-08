@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
      ss.framework  = "Foundation"
  end
  s.subspec "ObjectMapper" do |ss|
-   ss.source_files = "Sources/ObjectMapper/"
+   ss.source_files = "Sources/ObjectMapper/*.swift"
    ss.dependency "Swifixture/Core"
    ss.dependency "ObjectMapper", "~> 2.2.5"
  end
