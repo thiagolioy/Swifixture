@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
  s.name = 'Swifixture'
- s.version = '0.0.1'
+ s.version = '0.1.2'
  s.license = { :type => "MIT", :file => "LICENSE" }
- s.summary = 'cookiecutter bootstrap template for swift framework'
+ s.summary = 'Swift library to load Json fixtures.'
  s.homepage = 'https://github.com/thiagolioy/Swifixture'
  s.social_media_url = 'https://twitter.com/tplioy'
  s.authors = { "Thiago Lioy" => "thiagolioy@gmail.com" }
