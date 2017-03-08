@@ -65,7 +65,7 @@ $ brew install carthage
 To integrate Swifixture into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "Swifixture/Swifixture" ~> 0.1.2
+github "thiagolioy/Swifixture" ~> 0.1.2
 ```
 ### Swift Package Manager
 
