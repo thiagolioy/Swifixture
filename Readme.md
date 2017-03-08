@@ -42,7 +42,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'Swifixture', '~> 0.0.1'
+pod 'Swifixture', '~> 0.1.2'
 ```
 
 Then, run the following command:
@@ -65,7 +65,7 @@ $ brew install carthage
 To integrate Swifixture into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "Swifixture/Swifixture" ~> 0.0.1
+github "Swifixture/Swifixture" ~> 0.1.2
 ```
 ### Swift Package Manager
 
@@ -75,9 +75,9 @@ To use Swifixture as a [Swift Package Manager](https://swift.org/package-manager
 import PackageDescription
 
 let package = Package(
-    name: "HelloSwifixture",
+    name: "Swifixture",
     dependencies: [
-        .Package(url: "https://github.com/tplioy/Swifixture.git", "0.0.1")
+        .Package(url: "https://github.com/thiagolioy/Swifixture.git", "0.1.2")
     ]
 )
 ```
@@ -132,33 +132,33 @@ $ git submodule update --init --recursive
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```swift
-        describe("these will pass") {
-
-            it("should be able to load json") {
-                let json = try! Swifixture("jsonfile").toSwiftyJSON()
-                expect(json!["prop1"]) == "first prop"
-            }
-
-            it("should be able to map string to obj") {
-                let object = try! Swifixture("jsonfile").mapTo(FixtureObjectMapper)
-                expect(object!.prop1) == "first prop"
-                expect(object!.prop2) == "second prop"
-            }
-
-            it("should be able to load json string") {
-                let string = try! Swifixture("simple").toString()
-                expect(string).toNot(beNil())
-
-            }
-
-
+describe("Swifixture+ObjectMapperSpec") {
+    context("{} json"){
+        var swifixture: Swifixture?
+        beforeEach {
+            let bundle = Bundle(for: type(of: self))
+            swifixture = Swifixture(file: "example", in: bundle)
         }
 
-        describe("these will fail") {
-            it("should fail if invalid json name is given") {
-                expect{try Swifixture("invalid").toSwiftyJSON()}.to(throwError())
-            }
+        it("should be able to parse to object using a mappable instance") {
+            let parsedObj = swifixture!.map(to: UserTestModel.self)
+            expect(parsedObj).toNot(beNil())
         }
+    }
+    context("[] json"){
+        var swifixture: Swifixture?
+        beforeEach {
+            let bundle = Bundle(for: type(of: self))
+            swifixture = Swifixture(file: "arrayExample", in: bundle)
+        }
+
+        it("should be able to parse to [object] using a mappable instance") {
+            let parsedObj = swifixture!.mapArray(to: UserTestModel.self)
+            expect(parsedObj).toNot(beNil())
+            expect(parsedObj.count).to(equal(2))
+        }
+    }
+}
 ```
 ## License
 
