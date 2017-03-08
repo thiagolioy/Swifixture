@@ -1,0 +1,10 @@
+[
+ {
+ "username": "someUsername",
+ "token": "someRandomToken"
+ },
+ {
+ "username": "anotherUsername",
+ "token": "anotherRandomToken"
+ }
+]

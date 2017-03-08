@@ -30,6 +30,16 @@
 		992E120F1E703558009E4A4D /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 992E120A1E703286009E4A4D /* example.json */; };
 		992E12101E703559009E4A4D /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 992E120A1E703286009E4A4D /* example.json */; };
 		992E12111E70355A009E4A4D /* example.json in Resources */ = {isa = PBXBuildFile; fileRef = 992E120A1E703286009E4A4D /* example.json */; };
+		9966B6BC1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9966B6BB1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift */; };
+		9966B6BD1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9966B6BB1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift */; };
+		9966B6BE1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9966B6BB1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift */; };
+		99E33F0A1E703D560035EE71 /* Swifixture+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E33F091E703D560035EE71 /* Swifixture+ObjectMapper.swift */; };
+		99E33F0B1E703D560035EE71 /* Swifixture+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E33F091E703D560035EE71 /* Swifixture+ObjectMapper.swift */; };
+		99E33F0C1E703D560035EE71 /* Swifixture+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E33F091E703D560035EE71 /* Swifixture+ObjectMapper.swift */; };
+		99E33F0D1E703D560035EE71 /* Swifixture+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E33F091E703D560035EE71 /* Swifixture+ObjectMapper.swift */; };
+		99E8D2701E70428800644898 /* arrayExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 99E8D26F1E70428800644898 /* arrayExample.json */; };
+		99E8D2711E70428800644898 /* arrayExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 99E8D26F1E70428800644898 /* arrayExample.json */; };
+		99E8D2721E70428800644898 /* arrayExample.json in Resources */ = {isa = PBXBuildFile; fileRef = 99E8D26F1E70428800644898 /* arrayExample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -267,6 +277,9 @@
 		35CD65181E60192300AF060B /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		992E11F81E70324F009E4A4D /* Swifixture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Swifixture.swift; path = Core/Swifixture.swift; sourceTree = "<group>"; };
 		992E120A1E703286009E4A4D /* example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = example.json; sourceTree = "<group>"; };
+		9966B6BB1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swifixture_ObjectMapperSpec.swift; sourceTree = "<group>"; };
+		99E33F091E703D560035EE71 /* Swifixture+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swifixture+ObjectMapper.swift"; sourceTree = "<group>"; };
+		99E8D26F1E70428800644898 /* arrayExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = arrayExample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +372,7 @@
 		3549BB161DA3890B00C63030 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9958E2A01E7038BA0075D83E /* ObjectMapper */,
 				3549BB5C1DA38AA500C63030 /* Core */,
 				3549BB541DA38A4000C63030 /* Supporting Files */,
 			);
@@ -371,6 +385,7 @@
 				992E12091E703271009E4A4D /* Fixtures */,
 				3549BB8A1DA38C0A00C63030 /* SwifixtureSpec.swift */,
 				3549BB5B1DA38A8C00C63030 /* Supporting Files */,
+				9966B6BB1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -544,8 +559,17 @@
 			isa = PBXGroup;
 			children = (
 				992E120A1E703286009E4A4D /* example.json */,
+				99E8D26F1E70428800644898 /* arrayExample.json */,
 			);
 			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		9958E2A01E7038BA0075D83E /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				99E33F091E703D560035EE71 /* Swifixture+ObjectMapper.swift */,
+			);
+			path = ObjectMapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -960,6 +984,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E8D2701E70428800644898 /* arrayExample.json in Resources */,
 				992E120F1E703558009E4A4D /* example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -968,6 +993,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E8D2721E70428800644898 /* arrayExample.json in Resources */,
 				992E12111E70355A009E4A4D /* example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -976,6 +1002,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E8D2711E70428800644898 /* arrayExample.json in Resources */,
 				992E12101E703559009E4A4D /* example.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -988,6 +1015,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992E11F91E70324F009E4A4D /* Swifixture.swift in Sources */,
+				99E33F0A1E703D560035EE71 /* Swifixture+ObjectMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -996,6 +1024,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992E11FC1E70324F009E4A4D /* Swifixture.swift in Sources */,
+				99E33F0D1E703D560035EE71 /* Swifixture+ObjectMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1004,6 +1033,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992E11FA1E70324F009E4A4D /* Swifixture.swift in Sources */,
+				99E33F0B1E703D560035EE71 /* Swifixture+ObjectMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1012,6 +1042,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				992E11FB1E70324F009E4A4D /* Swifixture.swift in Sources */,
+				99E33F0C1E703D560035EE71 /* Swifixture+ObjectMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,6 +1050,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9966B6BC1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift in Sources */,
 				3549BB8B1DA38C0A00C63030 /* SwifixtureSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1027,6 +1059,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9966B6BE1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift in Sources */,
 				3549BB8D1DA38C0A00C63030 /* SwifixtureSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1035,6 +1068,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9966B6BD1E7048B2008D1160 /* Swifixture_ObjectMapperSpec.swift in Sources */,
 				3549BB8C1DA38C0A00C63030 /* SwifixtureSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

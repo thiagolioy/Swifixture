@@ -15,5 +15,10 @@ Pod::Spec.new do |s|
      ss.source_files  = "Sources/Core/*.swift"
      ss.framework  = "Foundation"
  end
+ s.subspec "ObjectMapper" do |ss|
+   ss.source_files = "Sources/ObjectMapper/"
+   ss.dependency "Swifixture/Core"
+   ss.dependency "ObjectMapper", "~> 2.2.5"
+ end
 
 end
