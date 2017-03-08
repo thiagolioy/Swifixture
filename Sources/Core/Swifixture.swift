@@ -12,7 +12,7 @@ public struct Swifixture {
     let data: Data
     let json: String
     
-    init?(file: String, withExtension fileExt: String = "json", in bundle:Bundle = Bundle.main) {
+    public init?(file: String, withExtension fileExt: String = "json", in bundle:Bundle = Bundle.main) {
         guard let path = bundle.path(forResource: file, ofType: fileExt) else {
             return nil
         }
